@@ -380,12 +380,17 @@ footer p{
     grid-area: stock1;
     height: 300px;
 }
+.initial figure{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .initial figure img {
-    position: absolute;
     top: 135px;
     padding-right: 0;
     width: 300px;
-    display: none;
+    text-align: center;
+    left: -200px;
 }
 /* sevice-section */
 #service-section{
@@ -428,4 +433,5 @@ footer span{
         opacity: 100;
         padding-left: 40px;
     }
+
 }
